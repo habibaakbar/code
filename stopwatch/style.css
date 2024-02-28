@@ -13,6 +13,26 @@ body{
     min-height: 100vh;
     flex-direction: column;
 }
+.box{
+    border-radius: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(122, 128, 126);
+    min-width: 40vw;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 60px;
+     color: yellow;
+}
+    
+
 .stopwatch{
     background-color: rgba(0, 0, 0, 0.9);
     padding: 20px 24px;
