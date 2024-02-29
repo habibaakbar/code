@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background-color: rgb(126, 189, 218);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#name{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    
+    
+}
+#name :nth-child(1){
+    color: yellow;
+}
+#name :nth-child(2){
+    color:white;
+}
+.clock{
+    /* width: 100%; */
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("bck.webp");
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.7);
+    height: 24vh;
+    border-radius: 12px ;
+    padding: 20px;
+
+}
+.clock h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+
+}
+.clock span{
+    position: relative;
+    top: -10%;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+@media  screen and (max-width:374px){
+    .clock{
+        max-width: 310px ;
+        padding: 5px;
+    }
+    .clock h1{
+        font-size: 2.1rem;
+    }
+}
+    
+@media  screen and (max-width:375px) and (max-width:400px){
+    .clock{
+        max-width: 367px ;
+        padding: 5px;
+    }
+    .clock h1{
+        font-size: 2.4rem;
+    }
+}
+    
